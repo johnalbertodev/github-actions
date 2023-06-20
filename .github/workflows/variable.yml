@@ -11,5 +11,5 @@ jobs:
     - name: job1
       run: echo "$root_env_variable $First_name $job_env_variable'
       env:
-        first_name: user 1
+        First_name: user 1
   
