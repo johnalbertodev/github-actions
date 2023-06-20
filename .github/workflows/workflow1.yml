@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: instaling_nodes
-       uses: actions/setup_node@v3
+       uses: actions/setup-node@v3
   resuing_second_job:
      runs-on: ubuntu-latest
      steps:
