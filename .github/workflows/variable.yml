@@ -9,7 +9,7 @@ jobs:
     job_env_variable: Good Morning
    steps: 
     - name: job1
-      run: echo "$root_env_variable $First_name $job_env_variable'
+      run: echo "$root_env_variable $First_name $job_env_variable"
       env:
         First_name: user 1
   
