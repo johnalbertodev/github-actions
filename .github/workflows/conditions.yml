@@ -1,1 +1,17 @@
-
+name: conditions in workflow
+on: push
+jobs:
+ job1:
+  
+  runs-on: ubuntu-latest
+  steps:
+   - id: job_1
+   - run: echo "job1 runing"
+ job2:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "job 2 in running"
+ job3:
+   runs-on: ubuntu-latest
+   steps:
+   - run: echo "job 3 is running"
