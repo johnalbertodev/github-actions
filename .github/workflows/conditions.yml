@@ -4,11 +4,10 @@ jobs:
  job1:
   
   runs-on: ubuntu-latest
-  steps:
-    - id: job_1
-      run: |
+  steps: 
+     - run: |
             exit 1
-            echo "rehndo"
+           
  job2:
   runs-on: ubuntu-latest
   needs: [job1]
