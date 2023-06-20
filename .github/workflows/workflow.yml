@@ -1,1 +1,18 @@
-
+name: adding job in workflow
+on: 
+ workflow_call
+jobs:
+  resuing_first_job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: instaling_nodes
+       uses: action/setup_node@v3
+  resuing_second_job:
+     runs-on: ubuntu-latest
+     steps:
+      - name: second_job_runing
+        run: echo "second job runing"
+      
+     
+    
+  
