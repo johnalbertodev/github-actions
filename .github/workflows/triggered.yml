@@ -1,1 +1,12 @@
-name: triggered af
+name: triggered after mybuild ymal file
+on: 
+ workflow_run:
+   workflows: ["My Build"]
+   types:
+   - completed
+jobs:
+  triggered_on_complete:
+      runs-on: ubuntu-latest
+      steps:
+       - run: echo successfully triggerd
+   
